@@ -30,6 +30,17 @@ export default function Topbar() {
       {/* Right */}
 
       <div className="flex items-center gap-6">
+        
+{/* just for trail */}
+        <select className="mt-0 w-full rounded-lg bg-slate-800 flex items-center gap-1 text-slate-1 hover:text-white">
+          <option>EN</option>
+          <option>Accused Records</option>
+          <option>Victim Records</option>
+          <option>Criminal History</option>
+          <option>Financial Transactions</option>
+        </select>
+        {/* end */}
+        
 
         <button className="flex items-center gap-1 text-slate-300 hover:text-white">
           EN

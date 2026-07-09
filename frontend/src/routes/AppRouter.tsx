@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "../components/layout/Mainlayout";
 import Dashboard from "../pages/dashboard/Dashboard";
+import DataManagement from "../pages/data-management/DataManagement";
 import Copilot from "../pages/copilot/Copilot";
 import Cases from "../pages/cases/Cases";
 import Analytics from "../pages/analytics/Analytics";
@@ -15,6 +16,7 @@ export default function AppRouter() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/DataManagement" element={<DataManagement />} />
           <Route path="/Copilot" element={<Copilot />} />
           <Route path="/Cases" element={<Cases />} />
           <Route path="/Analytics" element={<Analytics />} />

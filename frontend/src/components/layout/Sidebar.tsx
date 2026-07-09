@@ -2,6 +2,7 @@ import {
   LayoutDashboard,
   Bot,
   FolderOpen,
+  Database,
   Network,
   ChartColumn,
   FileText,
@@ -12,6 +13,7 @@ import { NavLink } from "react-router-dom";
 
 const items = [
   { name: "Dashboard", icon: LayoutDashboard, path: "/" },
+  { name: "Data Management", icon: Database, path: "/DataManagement" },
   { name: "AI Copilot", icon: Bot, path: "/Copilot" },
   { name: "Case Explorer", icon: FolderOpen, path: "/Cases" },
   { name: "Network Analysis", icon: Network, path: "/Network" },
